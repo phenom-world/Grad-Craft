@@ -12,9 +12,9 @@ const sourceSans3 = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: 'GrandCraft - AI-Powered Graduate Application Assistant',
+  title: 'GradCraft - AI-Powered Graduate Application Assistant',
   description:
-    'Craft compelling graduate school applications with AI assistance. From research proposals to personal statements, GrandCraft helps you stand out among other applicants.',
+    'Craft compelling graduate school applications with AI assistance. From research proposals to personal statements, GradCraft helps you stand out among other applicants.',
   keywords:
     'graduate school applications, research proposals, statement of purpose, personal statement, AI writing assistant, academic applications, PhD applications, Masters applications, graduate admissions',
   authors: [{ name: 'Wakeel Kehinde', url: '' }],
@@ -24,29 +24,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://grandcraft.vercel.app',
-    title: 'GrandCraft - AI-Powered Graduate Application Assistant',
+    url: 'https://gradCraft.vercel.app',
+    title: 'GradCraft - AI-Powered Graduate Application Assistant',
     description:
       'Transform your graduate school applications with AI-powered writing assistance and expert guidance.',
-    siteName: 'GrandCraft',
+    siteName: 'GradCraft',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'GrandCraft - Graduate Application Assistant',
+        alt: 'GradCraft - Graduate Application Assistant',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GrandCraft - AI-Powered Graduate Application Assistant',
+    title: 'GradCraft - AI-Powered Graduate Application Assistant',
     description:
       'Transform your graduate school applications with AI-powered writing assistance and expert guidance.',
     creator: '@tijjken',
     images: ['/og-image.png'],
   },
-  metadataBase: new URL('https://grandcraft.vercel.app'),
+  metadataBase: new URL('https://gradCraft.vercel.app'),
   manifest: '/manifest.json',
 }
 
